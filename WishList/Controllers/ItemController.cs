@@ -36,7 +36,7 @@ namespace WishList.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPost]
+        //[HttpPost]
         public IActionResult Delete(int Id)
         {
             //var myitem = _context.Items.Find(Id);
